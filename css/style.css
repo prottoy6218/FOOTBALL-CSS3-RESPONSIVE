@@ -55,7 +55,7 @@ body{
     font-size: 64px;
     line-height: 80px;
     margin-top: 121px;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
 }
 .banner{
     display: flex;
@@ -123,3 +123,23 @@ img, .player-detail{
     height: 427px;
 }
 /* ------Main Part end------ */
+/* ------Footer part start------ */
+.footer-detail{
+    text-align: center;
+    margin-top: 158px;
+    line-height: 0px;
+}
+.footer-image img{
+    width: 438.87px;
+    height: 110px;
+    margin-bottom: 0px;
+}
+.social-icon img{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 0px;
+}
+.copyright{
+    margin-bottom: 63px;
+}
+/* ------Footer part start------ */
