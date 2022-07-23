@@ -1,0 +1,106 @@
+/* ------Google Font Added------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* ------Main Body Part------ */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------Header Color------ */
+.header-color{
+    background-color: #2D25A0;
+}
+
+/* ------Header Menu Start------ */
+/* ------Top navigation------ */
+.top-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 85px;
+    padding-right: 124px;
+    padding-top: 42px;
+}
+
+.top-menu li{
+    display: inline; 
+    list-style: none;
+}
+.top-menu li a{
+    color: white;
+    text-decoration: none; 
+    padding: 0px 36px;
+    font-size: 16px;
+}
+
+/* ------login button------ */
+.login{
+    width: 123px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #E02C6D;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+/* ------Banner text & banner Button------ */
+.banner-text h1{
+    color: white;
+    Font-style: bold;
+    font-size: 64px;
+    line-height: 80px;
+    margin-top: 121px;
+    margin-bottom: 0px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+.banner-button p{
+    height: 44px;
+    width: 168px;
+    background-color: #E02C6D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* ------Banner Image------ */
+.banner-image img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 67px;
+    margin-left: 250px;
+    margin-bottom: 86px;
+}
+/* ------Header Menu Part End------ */
+
+/* ------Main Part Start------ */
+
+/* ------Player name, image & details------ */
+.player{
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    
+}
+.players{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    margin-top: 27px;
+}
+img, .player-detail{
+    width: 300px;
+    height: 256px;
+    margin: 15px;
+}
+/* ------Main Part end------ */
