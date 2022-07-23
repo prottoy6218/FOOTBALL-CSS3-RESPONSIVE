@@ -61,7 +61,7 @@ body{
     display: flex;
     justify-content: space-around;
 }
-.banner-button p{
+.banner-button, .highlight-button p{
     height: 44px;
     width: 168px;
     background-color: #E02C6D;
@@ -102,5 +102,24 @@ img, .player-detail{
     width: 300px;
     height: 256px;
     margin: 15px;
+}
+/* ------match summary------ */
+.match-summary{
+    display: flex;
+    justify-content: space-around;
+}
+.match-highlight{
+    width: 566px;
+    height: 309px;
+    margin-top: 180px;
+}
+.highlight-heading{
+    font-size: 38px;
+    line-height: 60px;
+}
+.highlight-image img{
+    margin-top: 165px;
+    width: 567px;
+    height: 427px;
 }
 /* ------Main Part end------ */
